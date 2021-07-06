@@ -82,7 +82,7 @@ h2 {
 		40% 100%,
 		0% 50%
 	);
-	transition: background-color 0.5s ease-in-out;
+	/* transition: all 0.5s ease-in-out; */
 }
 
 #minutes {
@@ -95,7 +95,7 @@ h2 {
 	height: 12px;
 	width: 40%;
 	z-index: 4;
-	transition: all 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
 }
 
 #minutes::after {
@@ -117,7 +117,7 @@ h2 {
 		40% 100%,
 		0% 50%
 	);
-	transition: background-color 0.5 ease-in-out;
+	/*transition: background-color 0.5s ease-in-out;*/
 }
 #seconds {
 	position: absolute;
@@ -163,7 +163,7 @@ h2 {
 		40% 100%,
 		0% 50%
 	);
-	transition: background-color 0.5s ease-in-out;
+	/* transition: background-color 0.5s ease-in-out; */
 }
 
 @media screen and (max-width: 1050px) {
